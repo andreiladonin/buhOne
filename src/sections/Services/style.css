@@ -1,0 +1,19 @@
+.services {
+    padding: 140px 0;
+    background-color: #EBEBEB;
+}
+
+.services-title {
+    margin-bottom: 40px;
+}
+
+.services-subtitle {
+    margin-bottom: 90px;
+}
+
+.services__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+}

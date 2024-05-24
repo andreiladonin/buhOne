@@ -1,0 +1,85 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 30px;
+}
+
+
+
+.nav__logo {
+    align-self: center;
+    display: flex;
+    gap: 0 30px;
+}
+
+.nav__logo-text {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #005FA3;
+}
+.menu__info {
+    display: flex;
+    margin-bottom: 22px;
+    gap: 0 41px;
+
+}
+
+.menu__info-item {
+    padding-left: 37px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    position: relative;
+}
+
+.menu__info-item:nth-child(1)::after {
+    content: url(../../assets/icons/phone.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12.46px;
+    height: 17px;
+}
+
+
+.menu__info-item:nth-child(2)::after {
+    content: url(../../assets/icons/time.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12.46px;
+    height: 17px;
+}
+
+.menu__info-item:nth-child(3)::after {
+    content: url(../../assets/icons/email.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12.46px;
+    height: 17px;
+}
+
+.menu__info-item:nth-child(4)::after {
+    content: url(../../assets/icons/map.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12.46px;
+    height: 17px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 17px;
+}

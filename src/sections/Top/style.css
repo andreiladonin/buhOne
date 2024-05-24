@@ -1,0 +1,107 @@
+.top {
+    min-height: calc(100vh - 107px);
+    background-image: url(../../assets/images/bg-top.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.top__title {
+    color: #fff;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 13% ;
+    margin-bottom: 67px;
+}
+
+.top-link{
+    
+    background: #005FA3;
+    padding: 22px 55px;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color:#fff;
+}
+
+.slider-top {
+    position: relative;
+}
+
+.slider-top .controls {
+    position: absolute;
+    z-index: 10;
+    width: 100vw;
+    bottom: 14%;
+    left: auto;
+    right: auto;
+    top: auto;
+}
+
+.slider-top .controls .controls__inner {
+    margin: 0 auto;
+    max-width: 1116px;
+    height: 60px;
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control-dots {
+    display: flex;
+    align-self: end;
+    gap: 0 40px;
+}
+
+.control-dots li button {
+    display: block;
+    font-size: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    opacity: 0.3;
+}
+
+.control-dots li.slick-active button {
+
+    opacity: 1;
+}
+
+.controls-btns {
+    display: flex;
+
+}
+.controls__btn {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+}
+
+
+.controls__btn-prev {
+    opacity: 0.3;
+}
+
+
+.controls__btn-prev::before {
+    content: '';
+    display: block;
+    color: #fff;
+    position: absolute;
+    z-index: 20;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    right: 0;
+    background-image:url('../../assets/icons/back-arrow.svg');
+} 
+
+.controls__btn-next {
+    opacity: 0.5;
+}
