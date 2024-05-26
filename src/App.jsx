@@ -1,3 +1,4 @@
+import About from './sections/About'
 import Header from './sections/Header'
 import Services from './sections/Services'
 import Top from './sections/Top'
@@ -9,6 +10,7 @@ function App() {
       <main>
         <Top/>
         <Services />
+        <About/>
       </main>
       
     </>

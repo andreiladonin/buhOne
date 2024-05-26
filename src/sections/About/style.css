@@ -1,0 +1,37 @@
+.about  {
+    padding: 100px 0;
+}
+
+.about__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.about__main {
+    padding-right: 25px;
+}
+
+.about__main-subtitle {
+    font-family: "Merriweather", serif;
+    padding-top: 40px;
+    font-weight: 900;
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 60px;
+}
+
+.about__main-subtitle span {
+    color: #005FA3;
+}
+
+.about__main-text {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.about__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 255px) ;
+    gap: 30px;
+}

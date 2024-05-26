@@ -76,6 +76,8 @@
 }
 .controls__btn {
     display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     z-index: 2;
     background-color: #fff;
@@ -85,23 +87,29 @@
 
 
 .controls__btn-prev {
-    opacity: 0.3;
+    opacity: 0.2
 }
 
-
-.controls__btn-prev::before {
-    content: '';
-    display: block;
-    color: #fff;
-    position: absolute;
-    z-index: 20;
-    width: 15px;
-    height: 15px;
-    top: 0;
-    right: 0;
-    background-image:url('../../assets/icons/back-arrow.svg');
-} 
-
 .controls__btn-next {
-    opacity: 0.5;
+    opacity: 0.4;
+}
+
+.controls__btn div{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    border-left: 0;
+    border-top: 0;
+    opacity: 1;
+}
+
+.controls__btn-prev div {
+    transform: rotate(135deg);
+
+    -webkit-transform: rotate(135deg);
+}
+
+.controls__btn-next div {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);    
 }
