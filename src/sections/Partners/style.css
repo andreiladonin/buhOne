@@ -13,13 +13,14 @@
 
 .partners__slider {
     position: relative;
+    margin-bottom: 100px; ;
 }
 
 .partners__slider .slick-arrow {
     display: block;
     position: absolute;
     top: auto;
-    bottom: -90px;
+    bottom: -144px;
     width: 60px;
     height: 60px;
     background-color: #005FA3;
@@ -34,18 +35,24 @@
 }
 
 
-.partners__slider .slick-arrow::before{
-    content: none;
-}
-
 .partners__slider .slick-arrow.slick-prev {
     right: 60px;
     left:auto;
     opacity: 0.5;
+    position: absolute;
 }
 
 .partners__slider .slick-arrow.slick-next {
     right: 0;
+}
+
+.partners__slider .slick-arrow.slick-prev::before{
+    content: url(../../assets/icons/back-arrow.svg);
+}
+
+.partners__slider .slick-arrow.slick-next::before{
+    content: url(../../assets/icons/next-arrow.svg);
+
 }
 
 .partners__slider-img {
@@ -55,7 +62,7 @@
 
 
 .partners__slider .slick-dots {
-    bottom: -61px;
+    bottom: -112px;
     left: 0;
     width: auto;
 }
