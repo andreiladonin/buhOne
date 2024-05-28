@@ -46,9 +46,7 @@ img{
 }
 
 button {
-    color: inherit;
     font-size: inherit;
-    background-color: transparent;
     border: none;
     cursor: pointer;
     font-family: inherit;
