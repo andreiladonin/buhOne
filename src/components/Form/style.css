@@ -1,0 +1,74 @@
+.contats__form {
+    display: grid;
+    grid-template-columns: repeat(2, 255px);
+    grid-template-rows: 67px 160px auto;
+    gap:30px 35px;
+}
+
+
+.form__message {
+    grid-column: 1/-1;
+}
+
+.form__row label {
+    display: block;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.form__row input {
+    display: block;
+    background-color: transparent;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    outline: none;
+    color: white;
+    width: 100%;
+    padding-bottom: 15px;
+    border:none;
+    border-bottom: 1px solid white;
+}
+
+.form__row input:focus{
+    outline: none;
+}
+
+.form__row input::placeholder{
+    color: #BDBDBD;
+}
+.form__message label {
+    display: block;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.form__message textarea{
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    resize: none;
+    margin-bottom: 50px;
+}
+
+.form__message textarea:focus {
+    outline: none;
+}
+
+.form__message textarea::placeholder {
+    color: #BDBDBD;
+}
+
+.form__button {
+    grid-column: 1/-1;
+    justify-self: end;
+}

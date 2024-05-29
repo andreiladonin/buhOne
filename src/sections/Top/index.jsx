@@ -27,10 +27,10 @@ const Top = () => {
           <ul className='control-dots' > {dots} </ul>
           <div  className='controls-btns' >
             <button onClick={sliderRef?.slickPrev} className='controls__btn controls__btn-prev'>
-              <div></div>
+              Prev
             </button>
             <button onClick={sliderRef?.slickNext} className='controls__btn controls__btn-next'>
-              <div></div>
+              Next
             </button>
           </div>
         </div>

@@ -75,12 +75,11 @@
 
 }
 .controls__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
     z-index: 2;
     background-color: #fff;
+    font-size: 0;
+    line-height:0;
     width: 60px;
     height: 60px;
 }
@@ -94,22 +93,12 @@
     opacity: 0.4;
 }
 
-.controls__btn div{
-    width: 30px;
-    height: 30px;
-    border: 2px solid #fff;
-    border-left: 0;
-    border-top: 0;
-    opacity: 1;
+
+.controls__btn-prev::before{
+    content: url(../../assets/icons/back-arrow.svg);
+    font-size: 20px;
 }
 
-.controls__btn-prev div {
-    transform: rotate(135deg);
-
-    -webkit-transform: rotate(135deg);
-}
-
-.controls__btn-next div {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);    
+.controls__btn-next::before{
+    content: url(../../assets/icons/next-arrow.svg);
 }

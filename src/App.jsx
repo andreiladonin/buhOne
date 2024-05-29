@@ -1,4 +1,6 @@
 import About from './sections/About'
+import Contacts from './sections/Contacts'
+import Footer from './sections/Footer'
 import Header from './sections/Header'
 import Partners from './sections/Partners'
 import Reviews from './sections/Reviews'
@@ -15,8 +17,10 @@ function App() {
         <About/>
         <Partners/>
         <Reviews/>
+        <Contacts/>
+        
       </main>
-      
+      <Footer/>
     </>
   )
 }
